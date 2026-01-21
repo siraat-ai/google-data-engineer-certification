@@ -31,24 +31,6 @@ Follow this order strictly:
 > ⚠️ If you feel confused at any point → **don’t panic**.  
 > The structure is intentionally repetitive so concepts settle naturally.
 
----
-
-## 🗂️ Repository Structure
-
-```
-
-├── 01-exam-guide-overview/
-├── 02-designing-data-processing-systems/
-├── 03-ingesting-and-processing-data/
-├── 04-storing-the-data/
-├── 05-preparing-and-using-data/
-├── 06-maintaining-and-automating-workloads/
-├── 07-hands-on-projects/
-├── 08-revision-checklists/
-├── 09-mock-scenarios/
-└── README.md
-
-```
 
 ---
 
