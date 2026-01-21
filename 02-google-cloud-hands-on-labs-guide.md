@@ -159,3 +159,19 @@ Mr. X smiles.
 The cloud no longer feels overwhelming ☁️✨
 
 Happy Learning 🚀
+
+
+---
+
+## 📌 Reference & Lab Resource
+
+This guided lab content is created based on the structure of the Google Cloud Skills Boost introductory labs.
+
+You can access the original lab overview and start your hands-on practice here:
+
+🔗 **Google Cloud Skills Boost – Introductory Labs**  
+https://www.skills.google/focuses/2794?parent=catalog&path=16
+
+> *This link is provided for learning and practice purposes only.  
+> No copyrighted content from the original site has been copied here.*
+
