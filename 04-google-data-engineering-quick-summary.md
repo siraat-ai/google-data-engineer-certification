@@ -84,4 +84,18 @@ This summary means:
 * you have a strong foundation
 * you are ready to move forward calmly
 
+---
+
+🔜 **Now We Continue Learning (Your Choice)**
+
+We can now officially move forward, step by step, without rush.
+
+**Choose one:**
+
+1️⃣ Data Ingestion – how data actually enters GCS (real-world ways)  
+2️⃣ Dataflow deeper – batch vs streaming (still calm, no code)  
+3️⃣ BigQuery deeper – datasets, tables, partitions (concept level)  
+4️⃣ SQL for Data Engineers – only what you really need  
+5️⃣ Quick recap + confidence check, then continue  
+
 
