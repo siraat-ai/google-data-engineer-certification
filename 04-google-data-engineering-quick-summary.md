@@ -72,8 +72,8 @@ Project → Dataset → Table
 
 ### 🌟 One-Line Lock (Remember Forever)
 
-**GCS remembers.
-Dataflow works.
+**GCS remembers.  
+Dataflow works.  
 BigQuery understands.**
 
 ---
