@@ -1,4 +1,3 @@
-```md
 # Using Diagnostic Questions to Build Your Study Plan (Module 5)
 
 ## Why This Review Matters
@@ -59,4 +58,4 @@ That’s how you prepare **efficiently and confidently** for the Professional Da
 ---
 
 **filename:** module-5-using-diagnostics-for-study-plan.md
-```
+
