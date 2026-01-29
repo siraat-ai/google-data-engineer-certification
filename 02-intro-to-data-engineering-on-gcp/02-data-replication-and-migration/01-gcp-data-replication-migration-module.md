@@ -1,10 +1,3 @@
-Understood 👍  
-From now on, I will **always write in English only** and **always provide clean `.md` format notes**.
-
-Here is the corrected and fully English version of the module content you shared.
-
----
-
 # ☁️ Google Cloud Data Replication & Migration – Module Overview
 
 
