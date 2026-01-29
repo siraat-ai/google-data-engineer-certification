@@ -1,4 +1,3 @@
-```md
 # Module 1: Designing Data Processing Systems
 
 ## Module Overview
@@ -56,4 +55,4 @@ Now you’re ready to begin **Module 1: Designing Data Processing Systems**.
 ---
 
 **Filename:** `module-1-designing-data-processing-systems.md`
-```
+
