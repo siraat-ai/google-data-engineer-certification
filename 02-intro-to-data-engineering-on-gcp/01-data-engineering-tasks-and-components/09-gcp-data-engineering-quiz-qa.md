@@ -1,7 +1,6 @@
 # ☁️ Google Cloud Data Engineering – Quiz Explained Through Q&A
 
 
-::contentReference[oaicite:0]{index=0}
 
 
 ## 🌊 Data Lake vs Data Warehouse – What’s the Real Difference?
