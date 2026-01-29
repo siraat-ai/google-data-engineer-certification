@@ -1,4 +1,3 @@
-```md
 # Knowledge Check: Maintaining and Automating Data Workloads
 
 ## Choosing a Cost-Effective BigQuery Pricing Model
@@ -28,4 +27,4 @@ These choices help you balance **cost efficiency, reliability, and operational v
 ---
 
 **filename:** knowledge-check-pricing-and-monitoring.md
-```
+
