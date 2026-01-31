@@ -67,5 +67,4 @@ Together, they allow Datastream to:
 📄 Filename:
 `datastream-event-metadata-payload-example.md`
 
-```
-```
+
