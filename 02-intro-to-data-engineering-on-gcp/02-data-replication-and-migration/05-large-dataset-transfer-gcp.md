@@ -6,7 +6,7 @@
 ## 📦 When Should You Use Storage Transfer Service?
 
 **Mr. X:** I understand `gcloud storage` works for small data, but what about large datasets?  
-**Mr. Artificial King:** For **larger datasets**, you should use **:contentReference[oaicite:1]{index=1}**.  
+**Mr. Artificial King:** For **larger datasets**, you should use **Storage Transfer Service**.  
 It is designed specifically to move **large volumes of data efficiently** into Cloud Storage.
 
 ---
