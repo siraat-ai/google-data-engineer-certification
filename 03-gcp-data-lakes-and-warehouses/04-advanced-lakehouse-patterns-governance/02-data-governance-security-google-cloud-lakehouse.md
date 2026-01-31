@@ -196,6 +196,8 @@ This tool automatically **discovers, classifies, and protects sensitive data** a
 ---
 
 ## 🎭 Dynamic Data Masking (Simple Flow)
+<img width="4642" height="1291" alt="image" src="https://github.com/user-attachments/assets/e9f1a040-0bcb-44c8-aaa0-97a93646a782" />
+
 
 Here is the **plain-text masking flow**, step by step:
 
