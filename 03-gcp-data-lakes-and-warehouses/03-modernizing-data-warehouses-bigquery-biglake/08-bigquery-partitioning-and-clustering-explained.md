@@ -1,4 +1,4 @@
-````md
+
 # Clustering in BigQuery (Explained with the Table as-is)
 
 ## Simple Notes with a Friendly Conversation
