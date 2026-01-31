@@ -192,4 +192,4 @@ By combining **Cloud Storage**, **open formats**, **BigLake**, and **BigQuery**,
 
 ### 📁 Suggested GitHub Filename
 
-**02-building-lakehouse-google-cloud.md**
+**01-building-lakehouse-google-cloud.md**
