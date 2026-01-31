@@ -1,7 +1,6 @@
 # ☁️ Datastream Lab – Replicating PostgreSQL to BigQuery
 
 
-::contentReference[oaicite:0]{index=0}
 
 
 ## 🎯 What Is the Goal of This Lab?
