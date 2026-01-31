@@ -1,121 +1,140 @@
-# Extract and Load Data Pipeline Pattern in BigQuery
+# Extract and Load Data Pipeline Pattern (BigQuery)
 
+## Simple Notes with a Friendly Conversation
 
+### Characters
 
-
-## Introduction
-
-**Mr. X:** I heard about something called the *Extract and Load* data pipeline. What does it really mean?  
-**Mr. Artificial King:** Good question, Mr. X. The Extract and Load pattern focuses on bringing data into **:contentReference[oaicite:1]{index=1}** without doing any transformation first. This makes data pipelines much simpler.
-
-## What Is the Extract and Load Pattern?
-
-**Mr. Artificial King:** In this pattern:
-- Data is **extracted** from different sources
-- Data is **loaded directly** into BigQuery
-- No upfront transformation is required
-
-**Mr. X:** So we don’t clean or change data before loading?  
-**Mr. Artificial King:** Exactly. That step can be done later inside BigQuery if needed.
-
-## Why Extract and Load Simplifies Data Ingestion
-
-**Mr. X:** Why is this pattern so popular?  
-**Mr. Artificial King:** Because it:
-- Reduces pipeline complexity
-- Speeds up data ingestion
-- Removes the need for early transformations
-- Makes pipelines easier to maintain
-
-## Tools Used for Extract and Load
-
-### Direct Loading Tools
-
-**Mr. Artificial King:** BigQuery provides tools to load data directly:
-- `bq load` command-line tool
-- Data Transfer Service for managed and scheduled data loads
-
-**Mr. X:** Does that mean loading can happen automatically?  
-**Mr. Artificial King:** Yes. Scheduling is built-in, so data can arrive regularly without manual work.
-
-### External Tables and BigLake Tables
-
-**Mr. Artificial King:** Instead of copying data into BigQuery, you can:
-- Use **External Tables**
-- Use **BigLake Tables**
-
-**Mr. X:** What’s the advantage of that?  
-**Mr. Artificial King:** BigQuery can query data where it already exists, reducing data duplication and improving efficiency.
-
-## Scheduling and Efficiency Benefits
-
-**Mr. X:** Does this pattern help with performance and cost?  
-**Mr. Artificial King:** Yes. It:
-- Eliminates unnecessary data copying
-- Supports scheduled loads
-- Promotes efficient and scalable data pipelines
-
-## Supported Data Formats for Loading
-
-**Mr. Artificial King:** BigQuery supports many input formats:
-- Avro
-- Parquet
-- ORC
-- CSV
-- JSON
-- Firestore exports
-
-**Mr. X:** So I don’t need to convert files before loading?  
-**Mr. Artificial King:** Exactly. BigQuery handles them directly.
-
-## Exporting Data from BigQuery
-
-**Mr. X:** Can data be exported out of BigQuery?  
-**Mr. Artificial King:** Yes. You can export:
-- Query results
-- Table data
-
-Supported export formats include:
-- CSV
-- JSON
-- Avro
-- Parquet
-
-This makes integration with other systems very easy.
-
-## Ways to Load Data into BigQuery
-
-### Using the BigQuery User Interface
-
-**Mr. Artificial King:** The UI is simple and user-friendly:
-- Upload files directly
-- Select file formats
-- Auto-detect schema
-
-**Mr. X:** Sounds good for beginners.  
-**Mr. Artificial King:** Exactly. It’s great for quick or manual uploads.
-
-### Using LOAD DATA SQL Statement
-
-**Mr. Artificial King:** The `LOAD DATA` SQL statement offers:
-- More control
-- Automation support
-- Ability to append or overwrite tables
-
-**Mr. X:** So this is better for production pipelines?  
-**Mr. Artificial King:** Yes, it’s ideal for automated workflows.
-
-## Key Takeaways
-
-**Mr. Artificial King:** To summarize:
-- Extract and Load skips upfront transformation
-- It simplifies data ingestion into BigQuery
-- Supports many file formats
-- Enables scheduling and automation
-- Reduces data copying using external and BigLake tables
-
-**Mr. X:** That makes the whole process much clearer and easier.
+* **Mr. X** — a curious learner
+* **Mr. Artificial King** — a kind and patient guide
 
 ---
 
-**Filename:** `bigquery-extract-load-pipeline.md`
+## 1. What Is the Extract and Load Pattern?
+
+**Mr. X:** I often hear about *extract, transform, load (ETL)*. What is *extract and load* then?
+
+**Mr. Artificial King:** Good question! The **extract and load (EL)** pattern is a simpler approach.
+Here, we:
+
+1. **Extract** data from source systems
+2. **Load** it directly into **Google BigQuery**
+3. Skip *upfront transformation*
+
+This means we do **not** clean or reshape data before loading it.
+
+---
+
+## 2. Why Use Extract and Load?
+
+**Mr. X:** Why would we skip transformation?
+
+**Mr. Artificial King:** Because BigQuery is powerful enough to handle transformations *after* loading.
+This gives us:
+
+* Faster data ingestion
+* Simpler pipelines
+* Less maintenance
+
+In short, **load first, transform later**.
+
+![Image](https://docs.cloud.google.com/static/bigquery/images/elt-or-etl.png)
+
+![Image](https://mozilla.github.io/gcp-ingestion/architecture/diagram.svg)
+
+![Image](https://storage.googleapis.com/gweb-cloudblog-publish/images/Screen_Shot_2021-06-27_at_2.03.28_PM.max-1300x1300.png)
+
+---
+
+## 3. How Data Is Loaded into BigQuery
+
+**Mr. X:** How does data actually get into BigQuery?
+
+**Mr. Artificial King:** BigQuery offers several easy options:
+
+### Common Tools
+
+* **`bq load`** command-line tool
+* **BigQuery Data Transfer Service** (scheduled, automated loading)
+* **External tables** (query data without copying it)
+* **BigLake tables** (unified access across storage systems)
+
+These options reduce data duplication and improve efficiency.
+
+---
+
+## 4. Scheduling and Efficiency
+
+**Mr. X:** Do I need to run loading manually every time?
+
+**Mr. Artificial King:** Not at all.
+
+* Built-in **scheduling** is supported
+* Automated transfers reduce manual work
+* External and BigLake tables avoid unnecessary data copying
+
+This makes pipelines more **cost-effective** and **scalable**.
+
+---
+
+## 5. Supported Data Formats
+
+**Mr. X:** What types of files can BigQuery load?
+
+**Mr. Artificial King:** BigQuery is very flexible. It supports:
+
+### Import Formats
+
+* Avro
+* Parquet
+* ORC
+* CSV
+* JSON
+* Firestore exports
+
+### Export Formats
+
+* CSV
+* JSON
+* Avro
+* Parquet
+
+This makes integration with other tools very easy.
+
+---
+
+## 6. Ways to Load Data into BigQuery
+
+**Mr. X:** Is coding required to load data?
+
+**Mr. Artificial King:** Not always. There are **two main ways**:
+
+### 1. BigQuery Web UI
+
+* Upload files directly
+* Choose file format
+* Auto-detect schema
+* Best for beginners and quick tasks
+
+### 2. `LOAD DATA` SQL Statement
+
+* More control
+* Ideal for automation
+* Supports append or overwrite
+* Perfect for production pipelines
+
+---
+
+## 7. Key Takeaways
+
+* Extract and Load removes upfront transformation
+* BigQuery handles transformations later using SQL
+* Multiple tools simplify ingestion
+* Supports many data formats
+* UI for ease, SQL for control
+* Efficient, scalable, and automation-friendly
+
+---
+
+### 📁 Suggested GitHub Filename
+
+**extract-and-load-bigquery.md**
