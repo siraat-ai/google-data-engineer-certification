@@ -1,4 +1,4 @@
-```md
+
 # Partitioning and Clustering in BigQuery  
 ## Explained Clearly Using the Cymbal Example (with Original Tables Preserved)
 
@@ -175,5 +175,4 @@ This is a **core best practice** for large-scale BigQuery tables.
 
 **bigquery-partitioning-explained-with-tables.md**
 
-```
-```
+
