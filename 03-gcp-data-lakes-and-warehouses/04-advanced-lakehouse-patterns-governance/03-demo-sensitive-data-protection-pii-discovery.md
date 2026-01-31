@@ -1,5 +1,7 @@
 # 🛡️ Demo: Data Loss Prevention with Sensitive Data Protection
 
+https://www.skills.google/paths/16/course_templates/54/documents/592906
+
 ![Image](https://storage.googleapis.com/gweb-cloudblog-publish/images/First-Image.max-1400x1400.png)
 
 ![Image](https://storage.googleapis.com/gweb-cloudblog-publish/images/cloud_dlp_lWJX44E.max-1200x1200.jpg)
