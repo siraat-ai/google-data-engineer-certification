@@ -10,7 +10,7 @@
 
 ---
 
-## 🧠 How Distributed Batch Pipelines Stay Reliable
+# 🧠 How Distributed Batch Pipelines Stay Reliable
 <img width="940" height="500" alt="image" src="https://github.com/user-attachments/assets/72bed64d-d920-4a15-b578-9025dbe88387" />
 
 
