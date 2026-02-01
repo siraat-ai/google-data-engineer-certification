@@ -37,7 +37,7 @@ This is the foundation of **scalable batch data pipelines**.
 ---
 
 ## 🪜 Step-by-Step: What the Diagram Shows
-<img width="1538" height="805" alt="image" src="https://github.com/user-attachments/assets/db73a069-d1ac-4adc-8def-f76fdd88635a" />
+<img width="940" height="500" alt="image" src="https://github.com/user-attachments/assets/f4a40257-2f65-4924-82d0-db02cd60c5e2" />
 
 Let’s walk through the process illustrated in the image.
 
