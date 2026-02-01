@@ -19,7 +19,7 @@ Low latency and continuous ingestion are not relevant here—they are characteri
 
 ![Image](https://substackcdn.com/image/fetch/f_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ee64241-dfde-4983-9534-f04f2b23c637_1024x768.png)
 
-![Image](https://www.researchgate.net/publication/349544217/figure/fig3/AS%3A11431281115648203%401675051453263/Flowchart-of-the-applied-screening-procedure-for-high-throughput-screening-in-batch-and.png)
+<img width="850" height="261" alt="image" src="https://github.com/user-attachments/assets/4ec15327-4a0c-4dad-a19b-4afe5e475f98" />
 
 ![Image](https://miro.medium.com/1%2Aajjhp5-azD7ee8BVRYpxdA.png)
 
