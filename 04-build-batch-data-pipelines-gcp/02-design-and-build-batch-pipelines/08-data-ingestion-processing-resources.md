@@ -1,5 +1,3 @@
----
-
 ## 🎥 Dataflow – High-Level Overview
 
 To understand **what Google Cloud Dataflow is** and **what problems it solves**, start with this short official video:
@@ -34,4 +32,3 @@ To go deeper into **serverless Spark on Google Cloud** and how it integrates wit
 💡 *Tip:*  
 First watch the **Dataflow video** to build intuition, then read the **Spark blog** to understand advanced, real-world serverless analytics patterns.
 
----
