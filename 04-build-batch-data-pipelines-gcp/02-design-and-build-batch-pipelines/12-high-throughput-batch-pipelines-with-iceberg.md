@@ -148,6 +148,28 @@ It helps in **three key ways**.
 
 ---
 
+---
+
+## 🧊 Apache Iceberg – Why It Matters
+
+Apache Iceberg provides the **data reliability layer** that transforms a fast but fragile data pipeline into a **robust, scalable, and high-throughput system**.
+
+It helps data engineers handle:
+- Schema evolution safely  
+- Reliable reads and writes  
+- Large-scale batch and analytics workloads  
+- Failures without corrupting data  
+
+For a deeper understanding, read this official article by Google Cloud engineers:
+
+🔗 **What is Apache Iceberg?**  
+https://cloud.google.com/discover/what-is-apache-iceberg?e=48754805&hl=en
+
+💡 *Recommended:* Read this after learning batch pipelines and before designing large-scale data lakes.
+
+---
+
+
 ### 📁 Suggested GitHub Filename
 
 `high-throughput-batch-pipelines-with-iceberg.md`
