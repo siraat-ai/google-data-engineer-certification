@@ -216,9 +216,11 @@ For every question, ask:
 
 This repository is built on one belief:
 
-> **Confusion is temporary.  
-> Clarity is guaranteed with the right structure.**
-> Progress comes from staying on the path, not from feeling confident all the time.
+> **Confusion is temporary.**  
+> **Clarity is guaranteed with the right structure.**
+>
+> *Progress comes from staying on the path,  
+> not from feeling confident all the time.*
 
 ---
 
