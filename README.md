@@ -18,6 +18,31 @@ This repo is a **one-stop, hands-on + concept-clear** preparation space for:
 
 ---
 
+## 📌 Disclaimer & Learning Note
+
+This repository is created **purely for learning and self-study purposes**.
+
+- The notes, explanations, and structure are written by me while studying data engineering concepts.
+- Most diagrams included here are **AI-generated** to support lecture explanations and improve understanding.
+- Some diagrams are **taken directly from Google Cloud / Google Skills learning materials** and are used **as-is** only to clarify concepts.
+
+All such content is:
+- 📚 Used for **educational purposes only**
+- ❌ Not intended for commercial use
+- ✍️ Properly acknowledged where applicable
+
+No ownership is claimed over any third-party diagrams or materials.  
+All rights for original content belong to their respective owners (e.g., Google Cloud).
+
+If you are the content owner and believe any material should be removed or credited differently, please feel free to raise an issue in this repository.
+
+---
+
+💡 *This repository reflects a personal learning journey and is meant to help others who are also learning.*
+
+
+---
+
 ## 🧠 How to Use This Repo (IMPORTANT)
 
 Follow this order strictly:
