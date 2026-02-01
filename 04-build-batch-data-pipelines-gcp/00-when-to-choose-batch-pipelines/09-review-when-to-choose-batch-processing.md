@@ -6,7 +6,7 @@
 
 ![Image](https://substackcdn.com/image/fetch/%24s_%21o-Mu%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8baf741-05a4-4f3f-83ea-22f0f25f1105_994x712.png)
 
-![Image](https://www.researchgate.net/publication/350335262/figure/fig1/AS%3A1022572896477184%401620811785135/The-proposed-architecture-of-batch-processing-ETL.png)
+<img width="850" height="435" alt="image" src="https://github.com/user-attachments/assets/0ac95704-3f3f-4721-b09a-21e66fc1db17" />
 
 ---
 
