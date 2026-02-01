@@ -1,5 +1,3 @@
----
-
 ## 🌱 Fear in Google Data Engineering (A Calm, Honest Note)
 
 Learning **Google Data Engineering** often comes with fear — and that is completely normal.
