@@ -20,6 +20,8 @@
 <img width="1056" height="446" alt="image" src="https://github.com/user-attachments/assets/20cd614c-58b7-4c41-a19e-96f09b3b082e" />
 
 
+---
+
 **Mr. Artificial King, the Calm Guider:**
 “Yes. In **Dataflow**, the **fundamental join pattern** across multiple datasets is implemented using **`CoGroupByKey`**. It’s how you express joins in a *distributed* system.”
 
