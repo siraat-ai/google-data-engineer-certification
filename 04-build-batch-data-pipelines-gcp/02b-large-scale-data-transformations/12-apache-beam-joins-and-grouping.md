@@ -7,8 +7,9 @@ Google Cloud Skills Boost
 Course Path: Data Engineering  
 Lesson URL:  
 https://www.skills.google/paths/16/course_templates/53/html_bundles/592795
-Note: This page contains multiple learning materials (labs, text, examples).
-The notes below focus only on the concepts explained in the video lesson.
+> **Note:** This page contains multiple learning materials (labs, text, examples).  
+> The notes below focus only on the concepts explained in the video lesson.
+
 
 ---
 
