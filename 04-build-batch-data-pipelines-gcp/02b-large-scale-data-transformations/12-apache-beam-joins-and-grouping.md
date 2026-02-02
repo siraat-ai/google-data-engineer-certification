@@ -1,5 +1,15 @@
 # 📘 Apache Beam – Joining & Grouping Data
 
+---
+
+## 📚 Source
+Google Cloud Skills Boost  
+Course Path: Data Engineering  
+Lesson URL:  
+https://www.skills.google/paths/16/course_templates/53/html_bundles/592795
+
+---
+
 ## (Proper Notes – Structured)
 
 ---
