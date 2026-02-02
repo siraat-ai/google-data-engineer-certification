@@ -22,7 +22,15 @@
 
 ---
 
+| **Feature** | **Dataflow** | **Serverless for Apache Spark** |
+|------------|--------------|----------------------------------|
+| **Core Abstraction** | Unified programming model (**Apache Beam SDK**) for batch and streaming; defines pipelines as transformation **DAGs**. | Managed environment for native **Apache Spark** applications; supports standard **Spark APIs**. |
+| **Primary Use Case** | Scalable, cloud-native pipelines; ideal for complex **ETL**, new robust data solutions, and **real-time streaming**. | Migrating existing **Spark/Hadoop** workloads; strong for **data science/ML** workflows relying on Spark’s libraries. |
+| **Operational Model** | Fully **serverless** and automated; manages all worker resources, **auto-scaling**, and rebalancing. | Handles **on-demand provisioning**, management, and **scaling of Spark clusters**. |
+| **Engineer Experience** | Works with **Apache Beam SDK**; focuses on pipeline logic; monitoring via **Dataflow UI** and **Cloud Logging/Monitoring**. | Leverages existing **Spark expertise**; monitoring via **Spark History Server UI** and **Cloud Logging/Monitoring**. |
 
+
+---
 
 
 **Mr. Artificial King:** Think of this table as a **decision guide**, not just a feature list. It highlights *how each engine thinks*, *what problems it solves best*, and *who it’s designed for*. Let’s walk through it together and then connect it to the three decision factors.
