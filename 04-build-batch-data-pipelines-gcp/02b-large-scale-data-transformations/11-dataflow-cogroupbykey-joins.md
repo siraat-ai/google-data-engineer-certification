@@ -14,6 +14,9 @@
 
 **Mr. X the Curious Learner:**
 “I see multiple PCollections feeding into something called `CoGroupByKey`. Is this how joins actually work in Dataflow?”
+
+---
+
 <img width="1056" height="446" alt="image" src="https://github.com/user-attachments/assets/20cd614c-58b7-4c41-a19e-96f09b3b082e" />
 
 
