@@ -218,6 +218,46 @@ If the same transaction is processed twice:
 Streaming systems may re-deliver messages.
 Idempotency prevents duplicate effects.
 
+### Simple Explanation of Idempotent Processing
+
+Idempotent processing means:
+
+If the same message or operation is executed multiple times, the final result remains the same.
+
+In simple words:
+
+Even if the system processes the same event again by mistake, it does not create duplicate results or incorrect data.
+
+---
+
+### Easy Example
+
+Suppose a payment of 100 SEK is processed.
+
+If the message is accidentally processed twice:
+
+- Without idempotency → Total becomes 200 SEK ❌
+- With idempotency → Total remains 100 SEK ✅
+
+---
+
+### Why It Is Important in Streaming Systems
+
+In systems like Pub/Sub:
+
+- Messages can be redelivered
+- Failures can cause retries
+
+If processing is not idempotent:
+- Duplicate records
+- Wrong revenue numbers
+- Incorrect analytics
+
+If processing is idempotent:
+- System remains correct
+- No duplicate impact
+- Safe retries
+
 ---
 
 ## 8️⃣ Throughput
