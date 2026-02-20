@@ -1,3 +1,26 @@
+## What is SaaS?
+
+### Definition
+SaaS (Software as a Service) is a cloud-based software delivery model where applications are hosted by a provider and accessed by users over the internet.
+
+### Key Characteristics
+- No local installation required
+- Subscription-based pricing model
+- Multi-tenant architecture (multiple customers share the same infrastructure)
+- Automatically scalable
+- Managed and maintained by the provider
+
+### Examples
+- E-commerce analytics platforms
+- CRM systems
+- Online accounting software
+- Project management tools
+
+### Why SaaS Generates Streaming Data
+SaaS platforms continuously generate user interaction data such as clicks, logins, transactions, and API calls. This makes streaming data pipelines essential for real-time analytics and monitoring.
+
+---
+
 # Key Technical Vocabulary – Deep Technical Notes
 
 This document explains core streaming and distributed system concepts in a technically accurate and practical way.
