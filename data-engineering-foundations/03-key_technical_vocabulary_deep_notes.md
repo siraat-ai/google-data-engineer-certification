@@ -286,6 +286,143 @@ A component in the system that limits overall performance.
 ### Engineering Principle
 The slowest component determines overall system speed.
 
+
+In simple words:
+
+Even if the whole system is fast, one slow component can slow down everything.
+
+---
+
+### Engineering Principle
+
+The slowest component determines the overall system speed.
+
+If one part cannot handle the load, the entire pipeline slows down.
+
+---
+
+## 🔹 Example 1: BigQuery Write Limits
+
+### What Does "BigQuery Write Limits" Mean?
+
+BigQuery has limits on how fast data can be written into a table.
+
+If:
+
+- Too many rows are inserted per second
+- Too many streaming insert requests are sent
+- Too many small write operations happen
+
+Then BigQuery may:
+
+- Slow down writes
+- Return errors
+- Create delays
+
+### Why This Becomes a Bottleneck
+
+If Dataflow processes data very fast  
+but BigQuery cannot accept writes at the same speed,
+
+Then:
+
+Dataflow will start waiting  
+Backlog may increase  
+Latency will increase  
+
+The warehouse becomes the limiting factor.
+
+---
+
+## 🔹 Example 2: Slow External API
+
+### What is an API?
+
+API = Application Programming Interface
+
+It is a way for one system to communicate with another system.
+
+Example:
+- Your pipeline calls a currency exchange API
+- Or calls a fraud detection service
+- Or fetches user data from another service
+
+### What Happens If the API Is Slow?
+
+If:
+
+- Each API call takes 2 seconds
+- And you are processing 10,000 events per second
+
+Then:
+
+Workers must wait for the API response  
+Processing slows down  
+Throughput decreases  
+
+Even if Pub/Sub and Dataflow are fast,  
+the slow API becomes the bottleneck.
+
+---
+
+## 🔹 Example 3: Insufficient Workers
+
+### What Does "Insufficient Workers" Mean?
+
+Workers are virtual machines that process data in parallel.
+
+If:
+
+- Event rate increases
+- But worker count remains low
+- Or autoscaling is disabled
+
+Then:
+
+Each worker gets too much data  
+Processing becomes slow  
+Pub/Sub backlog increases  
+
+### Simple Explanation
+
+Imagine:
+
+1 cashier handling 1000 customers  
+vs  
+10 cashiers handling 1000 customers  
+
+More workers = more parallel processing.
+
+If workers are not enough, the processing layer becomes the bottleneck.
+
+---
+
+## 🧠 Key Understanding
+
+A bottleneck is not about total system power.
+
+It is about imbalance.
+
+If one component cannot match the speed of others,  
+it limits the entire pipeline.
+
+---
+
+## 🎯 Real SaaS Example
+
+If your system handles:
+
+- 50,000 events per second in Pub/Sub  
+- 50,000 events per second in Dataflow  
+
+But BigQuery can only handle:
+
+- 10,000 writes per second  
+
+Then BigQuery becomes the bottleneck.
+
+The whole system effectively runs at 10,000 per second.
+
 ---
 
 ## 🔟 Micro-batching
