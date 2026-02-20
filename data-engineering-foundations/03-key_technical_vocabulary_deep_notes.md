@@ -135,6 +135,75 @@ Ensures at-least-once delivery.
 
 ---
 
+## Subscriber (in Pub/Sub)
+
+### Definition
+A subscriber is a component or service that receives and processes messages from a Pub/Sub subscription.
+
+In a GCP streaming architecture, Dataflow commonly acts as a subscriber.
+
+---
+
+### How It Works
+
+1. A message is published to a Pub/Sub topic.
+2. A subscription is attached to that topic.
+3. The subscriber pulls or receives the message from the subscription.
+4. After successful processing, the subscriber sends an acknowledgment (ACK).
+
+---
+
+### Types of Subscriptions
+
+- **Pull Subscription**
+  - Subscriber explicitly pulls messages.
+  - More control over processing rate.
+  - Commonly used with Dataflow.
+
+- **Push Subscription**
+  - Pub/Sub pushes messages to an HTTP endpoint.
+  - Used for lightweight services or webhooks.
+
+---
+
+### Key Responsibilities of a Subscriber
+
+- Receive messages
+- Process messages
+- Send acknowledgment (ACK)
+- Handle retries if processing fails
+
+---
+
+### Failure Behavior
+
+- If subscriber does NOT send ACK → message is redelivered.
+- If subscriber crashes before ACK → message is redelivered.
+- If subscriber ACKs successfully → message is removed from subscription.
+
+---
+
+### Why Subscriber Design Matters
+
+- Prevents data loss
+- Controls processing speed
+- Ensures reliability
+- Supports scalable streaming pipelines
+
+---
+
+### Example in Our SaaS System
+
+User click event  
+→ Pub/Sub topic  
+→ Subscription  
+→ Dataflow (Subscriber)  
+→ Process event  
+→ Send ACK  
+→ Store in BigQuery
+
+---
+
 ## 7️⃣ Idempotent Processing
 
 ### Definition
