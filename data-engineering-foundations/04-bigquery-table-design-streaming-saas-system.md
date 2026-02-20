@@ -1,20 +1,3 @@
-Excellent 👍
-Now we organize everything cleanly.
-
-Below is a **separate detailed Markdown file content** explaining:
-
-* Single Events Table concept
-* Partitioning
-* Clustering
-* Why they matter
-* How they reduce cost
-* How they improve performance
-
-You can paste this as a new `.md` file.
-
----
-
-````md
 # BigQuery Table Design for Streaming SaaS System
 
 ---
@@ -217,4 +200,4 @@ Next, we can:
 - Or simulate an interview question  
 
 You choose the direction.
-```
+
