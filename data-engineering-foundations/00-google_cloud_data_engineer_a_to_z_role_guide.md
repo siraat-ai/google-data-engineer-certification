@@ -202,4 +202,4 @@ They design secure, scalable, reliable, and production-grade data systems.
 
 Scalability + Reliability + Security + Cost Awareness
 
-Together define a strong Google Cloud Da
+Together define a strong Google Cloud Data Engineer.
