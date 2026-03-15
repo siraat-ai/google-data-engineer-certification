@@ -1,5 +1,5 @@
 # The Wind and the Eagle  
-## An Allama Iqbal Reflection for a Data Engineering Journey in Sweden
+## An Allama Iqbal Reflection for a Data Engineering Journey in Frankfurt
 
 ---
 
@@ -45,7 +45,7 @@ It needs resistance to climb.
 At this stage of my life, the opposing winds are real:
 
 - Leaving Spain, a place of comfort and familiarity  
-- Moving to Sweden, with a colder climate and unknowns  
+- Moving to Frankfurt, with a colder climate and unknowns  
 - Letting go of certainty for possibility  
 - Facing a new market, new system, new pace  
 - Preparing for Google Data Engineering in a competitive global field  
@@ -68,7 +68,7 @@ Just like the eagle, **still air would keep me low**.
 
 ---
 
-## Why Sweden, Why Data Engineering
+## Why Frankfurt, Why Data Engineering
 
 Google Data Engineering represents:
 - scale
@@ -76,7 +76,7 @@ Google Data Engineering represents:
 - systems thinking
 - long-term impact
 
-Sweden represents:
+Frankfurt represents:
 - opportunity density
 - stability
 - growth through structure
@@ -95,7 +95,7 @@ When doubt appears, this is the reminder:
 > It is training me for altitude.**
 
 Spain was a chapter of grounding.  
-Sweden is a chapter of elevation.
+Frankfurt is a chapter of elevation.
 
 ---
 
@@ -108,7 +108,7 @@ I recognize it.
 Because eagles do not rise *despite* the wind —  
 they rise **because of it**.
 
-And this journey into Google Data Engineering, in Sweden,  
+And this journey into Google Data Engineering, in Frankfurt,  
 is not a departure from who I am —  
 it is the height I was meant to reach.
 
